@@ -21,7 +21,7 @@ The following compoents are required for this repository:
 * clone Repository
  
     ```
-    $ https://github.com/Andreas-Pfeuffer/LSTM-ICNet.git
+    $ git clone https://github.com/Andreas-Pfeuffer/LSTM-ICNet.git
     $ cd LSTM-ICNet
     $ git-lfs pull
     ```
