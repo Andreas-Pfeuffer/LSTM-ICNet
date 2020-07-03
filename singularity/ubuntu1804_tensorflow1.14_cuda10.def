@@ -1,0 +1,24 @@
+BootStrap: docker
+From: nvcr.io/nvidia/tensorflow:19.08-py2
+
+%post
+
+apt update
+apt install python -y
+apt install python-pip -y
+
+pip install numpy
+pip install easydict
+
+pip install matplotlib
+pip install scipy
+pip install h5py
+pip install Pillow
+
+
+apt-get install -y wget
+apt-get install -y python-dev
+apt-get install -y python-setuptools
+apt-get install -y python-tk
+apt-get install -y libopencv-dev
+apt-get install -y python-opencv 
